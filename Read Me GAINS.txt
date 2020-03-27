@@ -17,6 +17,10 @@ f_infiltrationRaster.py  script needs most of these data be inputs as raster dat
 	wcs; water content at saturation-(Raster)
 	fc; water content at field capacity-(Raster)
 	
+	"The overall model, of which this study is a part, is intended to be used for decision making with regard to potential sites for mitigation wetlands. The model is intended to be used to compare sites to identify those that would warrant a more detailed, on-site assessment for their applicability. Methods that approach ET considering solar radiation, humidity, and other parameters are clearly physically based. However, because the model will be used for decision making purposes for the future (rather than modeling specific events in the past), the determination of specific input parameters such as solar radiation or humidity for a given precipitation event would suggest more knowledge than future users would have access to and could skew the results. In an effort eliminate the need to speculate about many input parameters,
+the decision for Mohammed and Trauth (2019) was to utilize the simplified method of considering pan evaporation and plant characteristics. While pan evaporation is a simple assessment for ET, the coefficients are widely available and would not require a future user to make more assumptions than absolutely necessary."
+
+	
 Outputs:-
      Raster maps for infiltration rate in cm/hr inside the geodata file
      Many other raster maps necessary to process the infiltration rate 
